@@ -23,4 +23,13 @@ class Home extends CI_Controller {
 		$content['view']=$this->load->view('home/index_center',$data,true);
 		$this->dashboard($content);
 	}
+	public function register(){
+		#data
+		$data['title']="";
+
+		#view
+		$content['key']="andykeren";
+		$content['view']=$this->load->view('home/register',$data,true);
+		$this->dashboard($content);
+	}
 }	

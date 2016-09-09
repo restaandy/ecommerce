@@ -54,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header">
     <div class="head-t">
         <div class="logo">
-            <a href="index.html"><img src="<?php echo base_url(); ?>aset/images/logo.png" class="img-responsive" alt=""/> </a>
+            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>aset/images/logo.png" class="img-responsive" alt=""/> </a>
         </div>
         <!-- start header_right -->
         <div class="header_right">
@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <div class="reg">
-                    <a href="register.html">REGISTER</a>
+                    <a href="<?php echo base_url(); ?>home/register">REGISTER</a>
                 </div>
             <div class="cart box_1">
                 <a href="checkout.html">
@@ -157,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <h4>account</h4>
                                 <ul>
                                     <li><a href="#">login</a></li>
-                                    <li><a href="register.html">create an account</a></li>
+                                    <li><a href="<?php echo base_url(); ?>home/register">create an account</a></li>
                                     <li><a href="women.html">create wishlist</a></li>
                                     <li><a href="women.html">my shopping bag</a></li>
                                     <li><a href="women.html">brands</a></li>
@@ -814,7 +814,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="col-md-2 myac">
             <h4>MY ACCOUNT</h4>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="<?php echo base_url(); ?>home/register">Register</a></li>
                 <li><a href="#">My Cart</a></li>
                 <li><a href="#">Order History</a></li>
                 <li><a href="buy.html">Payment</a></li>
